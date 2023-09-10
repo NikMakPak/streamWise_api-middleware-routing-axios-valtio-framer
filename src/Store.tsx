@@ -1,4 +1,7 @@
-export const videoMock = [
+import {proxy} from 'valtio'
+import {Video} from "./interfaces";
+
+export const store = proxy<Video[]>([
     {
         "id": 1,
         "title": "ТОП ЛУЧШИХ ГОЛОВ МЕСЯЦА В ФУТБОЛЕ! Август 2023",
@@ -8,7 +11,9 @@ export const videoMock = [
         "author": "Ranalda",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T21:37:16+00:00"
+        "published_at": "2023-09-09T21:37:16+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 2,
@@ -19,7 +24,9 @@ export const videoMock = [
         "author": "Upo",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T21:38:48+00:00"
+        "published_at": "2023-09-09T21:38:48+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 3,
@@ -30,18 +37,22 @@ export const videoMock = [
         "author": "POsa",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T19:08:48+00:00"
+        "published_at": "2023-09-09T19:08:48+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 4,
-        "title": "Побег из Таркова: Выживание в опасном мире",
+        "title": "Это побег из Таркова: Выживание в опасном мире",
         "category": "Игры",
         "timing": "10:00",
         "image": "https://media.discordapp.net/attachments/1149997381602000987/1150138594594402314/image-102x.png?width=862&height=487",
         "author": "ssss",
-        "created_at": "2023-09-09T18:45:03+00:00",
+        "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T19:08:54+00:00"
+        "published_at": "2023-09-09T19:08:54+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 5,
@@ -52,7 +63,9 @@ export const videoMock = [
         "author": "Dama",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T19:09:01+00:00"
+        "published_at": "2023-09-09T19:09:01+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 6,
@@ -63,7 +76,9 @@ export const videoMock = [
         "author": "Petrento",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T09:00:00+00:00"
+        "published_at": "2023-09-09T09:00:00+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 7,
@@ -74,7 +89,9 @@ export const videoMock = [
         "author": "Korgick",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T21:41:00+00:00"
+        "published_at": "2023-09-09T21:41:00+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 8,
@@ -85,28 +102,34 @@ export const videoMock = [
         "author": "Wara",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T21:42:35+00:00"
+        "published_at": "2023-09-09T21:42:35+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 9,
-        "title": "Russia 4K - Scenic Relaxation Film with Calming Music\n",
-        "category": "Познавательное ",
+        "title": "Юг russia 4K - Scenic Relaxation Film with Calming Music\n",
+        "category": "Познавательное",
         "timing": "55:00",
         "image": "https://i.ytimg.com/vi/lyh2kAjcmSY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIHbjIc9G4Nzc_VDgqHkiILxr3gQ",
         "author": "Russia travel",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T21:43:42+00:00"
+        "published_at": "2023-09-09T21:43:42+00:00",
+        "is_liked": false,
+        "is_disliked": false
     },
     {
         "id": 10,
         "title": "Knockout City - Чилловый кооп стрим для спортсменов с gl1st1kus #1\n",
-        "category": "Игры ",
+        "category": "Игры",
         "timing": "55:00",
         "image": "https://i.ytimg.com/vi/I_NMBRj88wA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC49t8KdmsMgr05fcfgcYEjoiDojw",
         "author": "Russia travel",
         "created_at": null,
         "updated_at": null,
-        "published_at": "2023-09-09T21:43:42+00:00"
+        "published_at": "2023-09-09T21:43:42+00:00",
+        "is_liked": false,
+        "is_disliked": false
     }
-]
+])

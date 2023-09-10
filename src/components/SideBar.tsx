@@ -43,11 +43,11 @@ const SideBar: FunctionComponent = () => {
                         <img className="burger" alt="" src="/bankcardcheckoulc-1.svg"/>
                         <div className="div5">Подписки</div>
                     </div>
-                    <div className="menu-tab">
+                    <NavLink to={"/liked"} className="menu-tab">
                         <img className="burger" alt="" src="/barcode2-1.svg"/>
                         <div className="div5">Понравившиеся</div>
-                    </div>
-                    <NavLink to={"/best"} className="menu-tab">
+                    </NavLink>
+                    <NavLink to={"/best-rec"} className="menu-tab">
                         <img className="burger" alt="" src="/star.svg"/>
                         <div className="div5">Лучшие рекомендации</div>
                     </NavLink>
