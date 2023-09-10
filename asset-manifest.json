@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/streamWise_api-middleware-routing-axios-valtio-framer/static/css/main.088a8aa3.css",
+    "main.js": "/streamWise_api-middleware-routing-axios-valtio-framer/static/js/main.e8d87af0.js",
+    "static/js/787.97b9f1c1.chunk.js": "/streamWise_api-middleware-routing-axios-valtio-framer/static/js/787.97b9f1c1.chunk.js",
+    "static/media/backgoundimage@3x.png": "/streamWise_api-middleware-routing-axios-valtio-framer/static/media/backgoundimage@3x.b10ac95a658319d5a566.png",
+    "index.html": "/streamWise_api-middleware-routing-axios-valtio-framer/index.html",
+    "main.088a8aa3.css.map": "/streamWise_api-middleware-routing-axios-valtio-framer/static/css/main.088a8aa3.css.map",
+    "main.e8d87af0.js.map": "/streamWise_api-middleware-routing-axios-valtio-framer/static/js/main.e8d87af0.js.map",
+    "787.97b9f1c1.chunk.js.map": "/streamWise_api-middleware-routing-axios-valtio-framer/static/js/787.97b9f1c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.088a8aa3.css",
+    "static/js/main.e8d87af0.js"
+  ]
+}
