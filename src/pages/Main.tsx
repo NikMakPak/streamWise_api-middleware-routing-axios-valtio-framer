@@ -4,6 +4,19 @@ import VideoCard from '../components/VideoCard'
 import { store } from '../Store'
 
 const Main: FunctionComponent = () => {
+  // replaced with mock local data . just for remembering
+  // const [videoData, setVideoData] = useState<Video[]>([])
+  // useEffect(() => {
+  //   axios
+  //     .get('/api/vidio/getAllVideos')
+  //     .then((response) => {
+  //       setVideoData(response.data)
+  //     })
+  //     .catch((error) => {
+  //       console.error(error)
+  //     })
+  // }, [])
+
   return (
     <div className='chat'>
       <div className='frame1'>

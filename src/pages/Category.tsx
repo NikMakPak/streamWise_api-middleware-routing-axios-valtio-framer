@@ -13,7 +13,6 @@ const Category: FunctionComponent = () => {
   const [filtered, setFiltered] = useState([...videos])
   useEffect(() => {
     setTimeout(() => {
-      console.log(title)
       switch (title) {
         case '_will-view':
           setFiltered(videos.filter(video => video.category == 'Игры' || video.category == 'Развлекательное'))
